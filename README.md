@@ -10,9 +10,6 @@ This project is a Unity tool that allows you to convert JSON data into Unity Gam
   - [Installation](#installation)
 - [Usage](#usage)
 - [JSON Format](#json-format)
-- [Example](#example)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
