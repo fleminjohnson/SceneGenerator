@@ -1,0 +1,165 @@
+{
+    "name": "YourCanvasName",
+    "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+    },
+    "component": [
+        {
+            "componentType": "Canvas",
+            "renderMode": 0,
+            "sortingOrder": 0
+        },
+        {
+            "componentType": "CanvasScaler",
+            "uiScaleMode": 0,
+            "referenceResolution": {
+                "x": 1920,
+                "y": 1080
+            },
+            "screenMatchMode": 0,
+            "matchWidthOrHeight": 0.5
+        },
+        {
+            "componentType": "GraphicRaycaster",
+            "blockRaycasts": true,
+            "ignoreReversedGraphics": true
+        }
+    ],
+    "childNode": [
+        {
+            "name": "Button",
+            "position": {
+                "x": -1,
+                "y": 28,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "component": [
+                {
+                    "componentType": "Image",
+                    "sprite": "YourSprite",
+                    "color": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "rectTransform": {
+                        "anchorMin": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "anchorMax": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "sizeDelta": {
+                            "x": 100,
+                            "y": 100
+                        },
+                        "anchoredPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        }
+                    }
+                },
+                {
+                    "componentType": "Button",
+                    "text": "ButtonText",
+                    "onClick": "YourButtonClickFunction",
+                    "transition": 1,
+                    "targetGraphic": "YourTargetGraphic",
+                    "interactable": true
+                }
+            ],
+            "childNode": [
+                {
+                    "name": "YourName",
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    },
+                    "component": [
+                        {
+                            "componentType": "TextMeshPro",
+                            "text": "YourText",
+                            "fontSize": 16,
+                            "color": {
+                                "r": 1,
+                                "g": 1,
+                                "b": 1,
+                                "a": 1
+                            },
+                            "alignment": "Center",
+                            "rectTransform": {
+                                "anchorMin": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "anchorMax": {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                "pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "sizeDelta": {
+                                    "x": 200,
+                                    "y": 50
+                                },
+                                "anchoredPosition": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            }
+                        }
+                    ],
+                    "childNode": []
+                }
+
+            ]
+        }
+    ]
+}
