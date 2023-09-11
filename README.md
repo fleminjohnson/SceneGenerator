@@ -27,7 +27,7 @@ This project is a Unity tool that allows you to convert JSON data into Unity Gam
 
 To use this tool, you need the following software installed:
 
-- Unity (version X.X.X or higher)
+- Unity (version 2021.3.29f1 or higher)
 - [Newtonsoft.Json](https://www.newtonsoft.com/json) for JSON deserialization (you can add it using Unity Package Manager)
 
 ### Installation
