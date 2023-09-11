@@ -80,10 +80,10 @@ A sample JSON file is provided inside the Resources folder, please feel free to 
             "componentType": "Image",
             "sprite": "SpriteName",
             "color": {
-                "r": 255,
-                "g": 255,
-                "b": 255,
-                "a": 255
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
             },
             "rectTransform": {
                 "anchorMin": {
