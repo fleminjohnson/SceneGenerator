@@ -56,7 +56,7 @@ To use this tool, you need the following software installed:
 ## JSON Format
 
 The JSON data should follow a specific format to be correctly interpreted by the tool. Here's an example of the JSON format:
-
+A sample JSON file is provided inside the Resources folder, please feel free to customise
 ```json
 {
     "name": "RootObject",
