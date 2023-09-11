@@ -48,19 +48,13 @@ To use this tool, you need the following software installed:
 
 1. Create a JSON file containing the scene hierarchy structure and component data (See [JSON Format](#json-format) for details on the format).
 
-2. Create an empty GameObject in your Unity scene. This GameObject will be the root object for the converted hierarchy.
+2. In Unity's top panel, go to "Custom Tools" or a similar menu item.
 
-3. Attach a script to the root GameObject that will handle the JSON to scene conversion.
+3. Select "Object Template Editor."
 
-4. In the script, use the `JsonConvert.DeserializeObject` method to deserialize the JSON data into your custom model classes.
+4. In the Object Template Editor window, use the "Select JSON File" button to load your JSON data.
 
-5. Instantiate GameObjects and add components based on the deserialized data. You can use a switch statement to handle different component types.
-
-6. Set the properties of these components based on the JSON data.
-
-7. Optionally, handle parent-child relationships to build the complete scene hierarchy.
-
-8. Run your Unity project to see the converted scene hierarchy.
+5. Use the "Create GameObject" button to generate the GameObjects based on the JSON input.
 
 ## JSON Format
 
